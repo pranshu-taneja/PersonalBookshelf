@@ -35,13 +35,14 @@ function Bookshelf() {
 
   return (
     <div className="bookshelfContainer">
+      <h1>Personal BookShelf</h1>
       <button
         type="button"
         onClick={() => {
           navigate("/SearchBooks");
         }}
       >
-        Search Page⏮️
+        Search Books⏮️
       </button>
       {loading ? (
         <div>Loading...</div>
