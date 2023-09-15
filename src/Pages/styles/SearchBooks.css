@@ -1,0 +1,42 @@
+.SearchPageContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.booksContainer {
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.DefaultText {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+.FetchBooksContainer {
+    flex-basis: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 1rem;
+}
+
+
+.SearchBar {
+    font-size: 1rem;
+    padding: 1.5rem;
+    width: 18rem;
+    border-radius: 2rem;
+    font-family: Poppins;
+    border: none;
+}

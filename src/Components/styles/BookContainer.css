@@ -1,0 +1,28 @@
+.bookContainer {
+    border: 0.3rem solid #ffffffee;
+    border-radius: 1rem;
+    margin: 3rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    height: 15rem;
+    transition: transform 0.1s ease-in;
+    overflow: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bookContainer:hover {
+    transform: translateY(-10px);
+}
+
+.bookTitle {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.bookTitle:hover {
+    text-decoration: underline;
+}
